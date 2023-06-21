@@ -1,9 +1,11 @@
 [class*="col-"] {
     background-color: #cf8960;
+    border: 1px solid #dbd581;
     min-height: 70px;
 }
 
 .nested-col > [class*="col-"] {
     background-color: #dbd581;
+    border: 1px solid #cf8960;
     min-height: 30px;
 }
