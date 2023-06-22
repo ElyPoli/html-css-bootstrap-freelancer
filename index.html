@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +8,62 @@
 
         <!-- Icone FontAwesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- Bootstrap css -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
         <!-- Custom css -->
         <link rel="stylesheet" href="css/style.css">
     </head>
+
     <body>
         <!-- Navbar -->
         <nav class="bg-dark pt-2 pb-2">
             <div class="container-md">
-                <div class="row justify-content-between">
-                    <div class="col-3"></div>
-                    <div class="col-3">
-                        <!-- Menù esteso -->
-                        <div class="row justify-content-between align-items-center d-none d-md-flex nested-col">
-                            <div class="col-1"></div>
-                            <div class="col-1"></div>
-                            <div class="col-1"></div>
-                        </div>
-                        <!-- Hamburger menù -->
-                        <div class="d-flex justify-content-center align-items-center d-flex d-md-none bg-warning" style="min-height: 30px;"></div>
-                    </div>    
+                <div class="d-flex justify-content-between">
+                    <p class="text-white text-uppercase fs-5 fw-bold mt-auto mb-auto">Start Bootstrap</p>
+                    <!-- Menù esteso -->
+                    <div class="d-none d-md-flex">
+                        <ul class="my-list-group list-group-horizontal">
+                            <li class="list-group-item">
+                                <a class="text-uppercase link-light link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">Portfolio</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="text-uppercase link-light link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">About</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="text-uppercase link-light link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Hamburger menù -->
+                    <div class="justify-content-center align-items-center d-flex d-md-none" style="min-height: 30px;">
+                        <i class="fa-solid fa-bars text-white border border-white p-1"></i>
+                    </div>
                 </div>
-            </div>    
+
+
+
+
+
+                <!-- <div class="row justify-content-between">
+                    <div class="col-3"></div>
+                    <div class="col-3"> -->
+                        <!-- Menù esteso -->
+                        <!-- <div class="row justify-content-between align-items-center d-none d-md-flex nested-col">
+                            <div class="col-1"></div>
+                            <div class="col-1"></div>
+                            <div class="col-1"></div>
+                        </div> -->
+                        <!-- Hamburger menù -->
+                        <!-- <div class="d-flex justify-content-center align-items-center d-flex d-md-none bg-warning"
+                            style="min-height: 30px;"></div> -->
+                    <!-- </div> -->
+                </div>
+            </div>
         </nav>
 
         <!-- Header section -->
@@ -43,13 +73,13 @@
                     <!-- Immagine utente -->
                     <img class="user-img pb-2" src="img/avatar.svg" alt="Avatar user">
                     <!-- Titolo -->
-                    <h1 class="section-title">Start Bootstrap</h1>
+                    <h1 class="section-title text-white">Start Bootstrap</h1>
                     <!-- Greca con stella -->
                     <div class="star">
                         <p>Greca con stella</p>
                     </div>
                     <!-- Professione utente -->
-                    <h4 class="section-title">Graphic Artist - Web Designer - Illustrator</h4>
+                    <h4 class="section-title text-white">Graphic Artist - Web Designer - Illustrator</h4>
                 </div>
             </section>
         </header>
@@ -66,25 +96,25 @@
                     </div>
                     <!-- Sottosezione delle card -->
                     <div class="row row-gap-4">
-                        <div class="col-12 col-md-6 col-lg-4 card">
+                        <div class="col-12 col-md-6 col-lg-4 card border-0">
                             <img class="rounded-4" src="img/cabin.png" alt="Cabin">
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 card">
+                        <div class="col-12 col-md-6 col-lg-4 card border-0">
                             <img class="rounded-4" src="img/cake.png" alt="Cake">
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 card">
+                        <div class="col-12 col-md-6 col-lg-4 card border-0">
                             <img class="rounded-4" src="img/circus.png" alt="Circus">
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 card">
+                        <div class="col-12 col-md-6 col-lg-4 card border-0">
                             <img class="rounded-4" src="img/game.png" alt="Game">
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 card">
+                        <div class="col-12 col-md-6 col-lg-4 card border-0">
                             <img class="rounded-4" src="img/safe.png" alt="Safe">
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 card">
+                        <div class="col-12 col-md-6 col-lg-4 card border-0">
                             <img class="rounded-4" src="img/submarine.png" alt="Submarine">
                         </div>
-                    </div>    
+                    </div>
                 </div>
             </section>
 
@@ -92,25 +122,42 @@
             <section class="bg-primary">
                 <div class="container">
                     <!-- Titolo sezione -->
-                    <h2 class="section-title">About</h2>
+                    <h2 class="section-title text-white">About</h2>
                     <!-- Greca con stella -->
                     <div class="star text-center">
                         <p>Greca con stella</p>
                     </div>
                     <!-- Sottosezione testi -->
-                    <div class="row justify-content-center text-center">
-                        <div class="col-10 col-md-5">
-                            <p>Testo1</p>
-                        </div>
-                        <div class="col-10 col-md-5">
-                            <p>Testo2</p>
+                    <div class="pt-4">
+                        <div class="row justify-content-center">
+                            <div class="col-10 col-md-5">
+                                <p class="text-white">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi magnam magni minus
+                                    soluta. Necessitatibus sint tempora, aspernatur reprehenderit nostrum, hic
+                                    exercitationem quibusdam ab sed, veritatis maiores. Repudiandae officiis quidem dicta?
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi fugit iusto corporis sit
+                                    suscipit beatae voluptatibus maiores quis laboriosam sed laudantium, minus ratione nihil
+                                    quasi corrupti porro neque repellat. Molestiae!
+                                </p>
+                            </div>
+                            <div class="col-10 col-md-5">
+                                <p class="text-white">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quia labore soluta,
+                                    beatae, laborum est magni magnam, itaque consectetur tenetur nesciunt perferendis
+                                    asperiores. Modi, accusantium natus fugiat reiciendis saepe magni. Lorem ipsum dolor sit
+                                    amet consectetur adipisicing elit. In recusandae quas, perspiciatis illum veniam ab ad
+                                    aspernatur expedita ipsa sunt perferendis aperiam, odio, suscipit dolorum laboriosam
+                                    dolores eos et error!
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <!-- Pulsante -->
-                    <div class="row justify-content-center text-center">
-                        <div class="col-1">
-                            <p>Pulsante</p>
-                        </div>
+                    <div class="pt-4 text-center">
+                        <button class="btn btn-outline-light">
+                            <i class="fa-solid fa-download"></i>
+                            Download
+                        </button>
                     </div>
                 </div>
             </section>
@@ -135,7 +182,7 @@
                         <div class="col-2 offset-1 col-lg-1">
                             <p>Pulsante</p>
                         </div>
-                    </div>    
+                    </div>
                 </div>
             </section>
         </main>
@@ -155,8 +202,8 @@
                         <div class="col-12 col-md-4">
                             <p>ABOUT FREELANCER</p>
                         </div>
-                    </div>    
-                </div>    
+                    </div>
+                </div>
             </div>
             <!-- Sottosezione copyright -->
             <div class="bg-dark pt-2 pb-2">
@@ -164,8 +211,9 @@
                     <div class="col-6 offset-3 col-md-2 offset-md-5">
                         <p>Copyright</p>
                     </div>
-                </div>        
+                </div>
             </div>
         </footer>
     </body>
+
 </html>
