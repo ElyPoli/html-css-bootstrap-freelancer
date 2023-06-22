@@ -8,9 +8,6 @@
     /* Modifica colore grigio scuro */
     --bs-dark: #2c3e50;
     --bs-dark-rgb: 44, 62, 80;
-    /* Modifica colore pulsante */
-    /* --bs-btn-bg: #1abc9c;
-    --bs-btn-bg-rgb: 26, 188, 156; */
 }
 
 [class*="col-"] {
@@ -68,4 +65,20 @@ section {
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #2ae2bd;
     --bs-btn-disabled-border-color: #2ae2bd;
+}
+
+/* Greca con stella */
+.star-line {
+    background-color: white;
+    flex-basis: calc((100% / 12) * 3);
+    height: 4px;
+    border-radius: 10px;
+}
+
+.star-line-black {
+    background-color: black;
+}
+
+.star-line-main {
+    flex-basis: calc((100% / 12) * 2);
 }
