@@ -1,11 +1,21 @@
+:root {
+    /* Modifica colore principale - verde */
+    --bs-primary: #1abc9c;
+    --bs-primary-rgb: 26, 188, 156;
+    /* Modifica colore grigio chiaro */
+    --bs-secondary: #3a546d;
+    --bs-secondary-rgb: 58, 84, 109;
+    /* Modifica colore grigio scuro */
+    --bs-dark: #2c3e50;
+    --bs-dark-rgb: 44, 62, 80;
+}
+
 [class*="col-"] {
-    background-color: #cf8960;
     border: 1px solid #dbd581;
     min-height: 70px;
 }
 
 .nested-col > [class*="col-"] {
-    background-color: #dbd581;
     border: 1px solid #cf8960;
     min-height: 30px;
 }
