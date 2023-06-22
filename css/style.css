@@ -8,6 +8,9 @@
     /* Modifica colore grigio scuro */
     --bs-dark: #2c3e50;
     --bs-dark-rgb: 44, 62, 80;
+    /* Modifica colore pulsante */
+    /* --bs-btn-bg: #1abc9c;
+    --bs-btn-bg-rgb: 26, 188, 156; */
 }
 
 [class*="col-"] {
@@ -47,4 +50,22 @@ section {
     padding-right: .5rem;
     margin-bottom: 0;
     margin-top: 0;
+}
+
+/* Pulsante form di contatto */
+.my-btn-contact-form {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #1abc9c;
+    --bs-btn-border-color: #1abc9c;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #2ae2bd;
+    --bs-btn-hover-border-color: #2ae2bd;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #2ae2bd;
+    --bs-btn-active-border-color: #2ae2bd;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #2ae2bd;
+    --bs-btn-disabled-border-color: #2ae2bd;
 }

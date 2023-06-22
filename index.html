@@ -26,16 +26,19 @@
                 <div class="d-flex justify-content-between">
                     <p class="text-white text-uppercase fs-5 fw-bold mt-auto mb-auto">Start Bootstrap</p>
                     <!-- Menù esteso -->
-                    <div class="d-none d-md-flex">
+                    <div class="d-none d-md-flex align-items-center">
                         <ul class="my-list-group list-group-horizontal">
                             <li class="list-group-item">
-                                <a class="text-uppercase link-light link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">Portfolio</a>
+                                <a class="text-uppercase link-light link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                    href="#">Portfolio</a>
                             </li>
                             <li class="list-group-item">
-                                <a class="text-uppercase link-light link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">About</a>
+                                <a class="text-uppercase link-light link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                    href="#">About</a>
                             </li>
                             <li class="list-group-item">
-                                <a class="text-uppercase link-light link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">Contact</a>
+                                <a class="text-uppercase link-light link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                                    href="#">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -50,19 +53,19 @@
 
 
                 <!-- <div class="row justify-content-between">
-                    <div class="col-3"></div>
-                    <div class="col-3"> -->
-                        <!-- Menù esteso -->
-                        <!-- <div class="row justify-content-between align-items-center d-none d-md-flex nested-col">
-                            <div class="col-1"></div>
-                            <div class="col-1"></div>
-                            <div class="col-1"></div>
-                        </div> -->
-                        <!-- Hamburger menù -->
-                        <!-- <div class="d-flex justify-content-center align-items-center d-flex d-md-none bg-warning"
-                            style="min-height: 30px;"></div> -->
-                    <!-- </div> -->
-                </div>
+                        <div class="col-3"></div>
+                        <div class="col-3"> -->
+                <!-- Menù esteso -->
+                <!-- <div class="row justify-content-between align-items-center d-none d-md-flex nested-col">
+                                <div class="col-1"></div>
+                                <div class="col-1"></div>
+                                <div class="col-1"></div>
+                            </div> -->
+                <!-- Hamburger menù -->
+                <!-- <div class="d-flex justify-content-center align-items-center d-flex d-md-none bg-warning"
+                                style="min-height: 30px;"></div> -->
+                <!-- </div> -->
+            </div>
             </div>
         </nav>
 
@@ -174,13 +177,32 @@
                     <!-- Sottosezione form -->
                     <div class="row">
                         <div class="col-10 offset-1">
-                            <p>Form</p>
-                        </div>
-                    </div>
-                    <!-- Pulsante -->
-                    <div class="row">
-                        <div class="col-2 offset-1 col-lg-1">
-                            <p>Pulsante</p>
+                            <!-- Input - name -->
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control border-top-0 border-end-0 border-start-0 rounded-0" id="floatingInput-name" placeholder="Name">
+                                <label for="floatingInput-name">Name</label>
+                            </div>
+                            <!-- Input - e-mail -->
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control border-top-0 border-end-0 border-start-0 rounded-0" id="floatingInput-email" placeholder="name@example.com">
+                                <label for="floatingInput-email">Email address</label>
+                            </div>
+                            <!-- Input - phone number -->
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control border-top-0 border-end-0 border-start-0 rounded-0" id="floatingInput-phone" placeholder="Phone Number">
+                                <label for="floatingInput-phone">Phone Number</label>
+                            </div>
+                            <!-- Input - message -->
+                            <div class="form-floating">
+                                <textarea class="form-control border-top-0 border-end-0 border-start-0 rounded-0" placeholder="Leave a comment here" id="floatingInput-comment" style="height: 100px"></textarea>
+                                <label for="floatingInput-comment">Message</label>
+                            </div>
+                            <!-- Pulsante -->
+                            <div class="pt-4">
+                                <button class="btn my-btn-contact-form">
+                                    Send
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
