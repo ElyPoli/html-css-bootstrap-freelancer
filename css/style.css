@@ -40,6 +40,7 @@ section {
     margin-top: 0;
     background-color: transparent;
     border: none;
+    padding: 0;
 }
 
 .my-list-group > li {
@@ -81,4 +82,17 @@ section {
 
 .star-line-main {
     flex-basis: calc((100% / 12) * 2);
+}
+
+/* Footer */
+footer .link-primary:focus, .link-primary:hover {
+    color: #1abc9c;
+    -webkit-text-decoration-color: #1abc9c;
+    text-decoration-color: #1abc9c;
+}
+
+.my-footer-circle {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 1rem;
 }
