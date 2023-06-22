@@ -19,3 +19,16 @@
     border: 1px solid #cf8960;
     min-height: 30px;
 }
+
+.user-img {
+    max-width: 200px;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+}
